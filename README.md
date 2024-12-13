@@ -16,6 +16,9 @@ DentallApp is a web application with chatbot for appointment management, reminde
   - [Testing](#testing)
   - [Own libraries](#own-libraries)
 - [Software Engineering](#software-engineering)
+  - [Software Patterns](#software-patterns)
+  - [Design Principles](#design-principles)
+  - [Additional references](#additional-references)
 - [Installation](#installation)
 - [Plugin configuration](#plugin-configuration)
 - [Credentials](#credentials)
@@ -113,22 +116,24 @@ Another of my reasons is that what I learn about software engineering, I like to
 
 ## Software Engineering
 
-Software engineering concepts have been applied in this project:
+These concepts have been applied to this project:
+
+### Software Patterns
 - [Vertical Slice Architecture](https://garywoodfine.com/implementing-vertical-slice-architecture)
 - [CQRS](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation)
 - [Plugin-based architecture](https://www.linkedin.com/pulse/plugin-architecture-design-pattern-beginners-guide-nick-cosentino)
 - [Interface-based programming](https://en.wikipedia.org/wiki/Interface-based_programming)
-- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
 - [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
 - [Operation Result Pattern](https://medium.com/@wgyxxbf/result-pattern-a01729f42f8c)
-- [Guard Clause](https://deviq.com/design-patterns/guard-clause)
-- [Fail Fast](https://deviq.com/principles/fail-fast)
+
+### Design Principles
+- [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 - [Open-closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 - [Acyclic dependencies principle](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle)
 - [Explicit dependencies](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#explicit-dependencies)
-- [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
+- [Fail Fast](https://deviq.com/principles/fail-fast)
 
-**Additional references:**
+### Additional references
 - [Software principles and design](https://deviq.com)
 - [Plugin Architecture Pattern in C# by Alvaro Montoya](https://code-maze.com/csharp-plugin-architecture-pattern)
 - [Plugin Architecture Design Pattern by Nick Cosentino](https://www.devleader.ca/2023/09/07/plugin-architecture-design-pattern-a-beginners-guide-to-modularity)
